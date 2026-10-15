@@ -1,4 +1,8 @@
-export const API_URL = 'http://localhost:4000/api'
+// Before Step 2: browser called the API directly.
+// export const API_URL = 'http://localhost:4000/api'
+
+// Step 2: browser calls Nginx on the same origin.
+export const API_URL = '/api'
 
 // Generisk: anroparen säger vilken typ svaret har – `get<Guide[]>('/guides')`.
 // Typen kommer från @utpost/shared, samma fil som API:et använder.

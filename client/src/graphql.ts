@@ -1,4 +1,7 @@
-export const GRAPHQL_URL = 'http://localhost:4000/graphql'
+// Step 2: browser calls Nginx on the same origin.
+// export const GRAPHQL_URL = 'http://localhost:4000/graphql'
+
+export const GRAPHQL_URL = '/graphql'
 
 // Ett vanligt fetch-anrop – inget klientbibliotek (det kommer i M5, med cache och codegen).
 // Alltid POST till samma adress; frågan och variablerna går i bodyn.
